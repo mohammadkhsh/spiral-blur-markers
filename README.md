@@ -30,9 +30,17 @@ The final pipeline has two stages:
 |---|---|
 | ![](docs/assets/blur_level_stage1.png) | ![](docs/assets/blur_level_pipeline.png) |
 
+### Pipeline diagrams
+
+| Stage 1 detector | Stage 2 reasoner |
+|---|---|
+| ![](docs/assets/stage1_diagram.png) | ![](docs/assets/stage2_diagram.png) |
+
 ### Real-sheet preview
 
 ![Real robot A3 sheet](docs/assets/real_robot_a3_sheet.png)
+
+The real-sheet layout is intended for quick physical tests. You can print it and stick it on a robot, a box, a board, or any object that you want to localize or detect. Larger prints are usually better because they preserve more spiral detail for distance and blur-heavy captures.
 
 ## Final Release Contents
 
@@ -56,6 +64,8 @@ This repo is intentionally trimmed to the files used by the final sharp version:
   Core synthesis, rendering, grouping, canonical alignment, and Stage 2 model code.
 - `sample_data/`
   Small sharp validation sample pack with images, YOLO labels, and full scene metadata.
+- `docs/assets/`
+  Paper figures, architecture diagrams, and real-sheet visuals used in the public documentation.
 
 ## Repository Layout
 
@@ -151,7 +161,7 @@ On the final sharp validation setup, the full pipeline achieved:
 - `100.0%` robot precision
 - `99.34%` ID accuracy on the full validation set
 - `99.22%` ID accuracy on blurred samples
-- `19.64°` blur direction error on blurred samples
+- `19.64 deg` blur direction error on blurred samples
 - `1.20 px` blur magnitude error on blurred samples
 
 The sharp spiral design consistently outperformed the faded design and the classical baseline, especially on blur-heavy scenes where spiral class stability directly affects robot ID and motion reasoning.
