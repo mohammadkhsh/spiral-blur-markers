@@ -24,17 +24,21 @@ The final pipeline has two stages:
 |---|---|---|
 | ![](docs/assets/qual_clean.png) | ![](docs/assets/qual_low_blur.png) | ![](docs/assets/qual_high_blur.png) |
 
-### Blur sensitivity
+### Stage 1 detector
 
-| Stage 1 | Full pipeline |
-|---|---|
-| ![](docs/assets/blur_level_stage1.png) | ![](docs/assets/blur_level_pipeline.png) |
+<p align="center">
+  <img src="docs/assets/stage1_diagram.png" alt="Stage 1 detector diagram" width="88%">
+</p>
 
-### Pipeline diagrams
+Stage 1 is an RT-DETR detector trained on the final sharp spiral design. It operates on the full image and predicts spiral boxes, spiral centers, class labels `neg`, `zero`, and `pos`, and confidence scores. These detections are then passed to the geometric grouping stage used by Stage 2.
 
-| Stage 1 detector | Stage 2 reasoner |
-|---|---|
-| ![](docs/assets/stage1_diagram.png) | ![](docs/assets/stage2_diagram.png) |
+### Stage 2 reasoner
+
+<p align="center">
+  <img src="docs/assets/stage2_diagram.png" alt="Stage 2 reasoner diagram" width="88%">
+</p>
+
+Stage 2 is a geometry-aware blur reasoner. It first groups four spirals into one robot hypothesis, assigns slots using the zero spiral heading, and warps the group into a canonical robot view. The neural model then combines four local slot patches, one global robot crop, slot-class embeddings, learned slot identities, and a lightweight transformer encoder. The final heads predict blur presence, blur magnitude, blur axis, and blur sign, which are combined with the zero-slot heading to recover the final motion direction.
 
 ### Real-sheet preview
 
