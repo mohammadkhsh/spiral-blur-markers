@@ -1,0 +1,548 @@
+{
+  "scene_name": "blur_04001.jpg",
+  "domain": "blur",
+  "split": "val",
+  "local_index": 4001,
+  "image_size": [
+    640,
+    640
+  ],
+  "placements": [
+    {
+      "robot_id": 6,
+      "center_xy": [
+        160.49961853027344,
+        539.4344482421875
+      ],
+      "scale": 1.0,
+      "rotation_deg": -78.9235556068447,
+      "tilt_x_deg": 0.0,
+      "tilt_y_deg": 0.0
+    },
+    {
+      "robot_id": 3,
+      "center_xy": [
+        852.3103637695312,
+        997.151123046875
+      ],
+      "scale": 1.0,
+      "rotation_deg": -145.80185997399715,
+      "tilt_x_deg": 0.0,
+      "tilt_y_deg": 0.0
+    },
+    {
+      "robot_id": 1,
+      "center_xy": [
+        542.486572265625,
+        739.1524047851562
+      ],
+      "scale": 1.0,
+      "rotation_deg": 159.53066780454736,
+      "tilt_x_deg": 0.0,
+      "tilt_y_deg": 0.0
+    },
+    {
+      "robot_id": 7,
+      "center_xy": [
+        640.586669921875,
+        328.1472473144531
+      ],
+      "scale": 1.0,
+      "rotation_deg": 83.9497926319521,
+      "tilt_x_deg": 0.0,
+      "tilt_y_deg": 0.0
+    }
+  ],
+  "robots": [
+    {
+      "robot_index": 0,
+      "robot_id": 6,
+      "center_xy": [
+        85.59979654947917,
+        287.6983723958333
+      ],
+      "heading_deg": 78.92355663469127,
+      "fit_circle_radius_px": 69.47995509202549,
+      "bbox_xyxy": [
+        16.119841457453674,
+        218.21841730380783,
+        155.07975164150466,
+        357.1783274878588
+      ],
+      "blur_length_px": 22.0,
+      "blur_angle_deg": 268.481239402547,
+      "motion_beta": 0.2945717830012541,
+      "spiral_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kernel_blur_angle_deg": 271.518760597453
+    },
+    {
+      "robot_index": 1,
+      "robot_id": 3,
+      "center_xy": [
+        454.56552734375,
+        531.8139322916667
+      ],
+      "heading_deg": 145.80186620131383,
+      "fit_circle_radius_px": 69.47995506288675,
+      "bbox_xyxy": [
+        385.08557228086323,
+        462.33397722877993,
+        524.0454824066367,
+        601.2938873545534
+      ],
+      "blur_length_px": 19.0,
+      "blur_angle_deg": 83.95469064292716,
+      "motion_beta": 0.3138511177925275,
+      "spiral_indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "kernel_blur_angle_deg": 96.04530935707284
+    },
+    {
+      "robot_index": 2,
+      "robot_id": 1,
+      "center_xy": [
+        289.326171875,
+        394.21461588541666
+      ],
+      "heading_deg": -159.53067024618616,
+      "fit_circle_radius_px": 69.47995550552899,
+      "bbox_xyxy": [
+        219.846216369471,
+        324.73466037988766,
+        358.806127380529,
+        463.69457139094567
+      ],
+      "blur_length_px": 6.0,
+      "blur_angle_deg": 49.07321846708129,
+      "motion_beta": 0.3451247802851093,
+      "spiral_indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "kernel_blur_angle_deg": 130.9267815329187
+    },
+    {
+      "robot_index": 3,
+      "robot_id": 7,
+      "center_xy": [
+        341.6462306805218,
+        175.01186113312164
+      ],
+      "heading_deg": -83.94979062591561,
+      "fit_circle_radius_px": 69.47996141610766,
+      "bbox_xyxy": [
+        272.16626926441415,
+        105.53189971701399,
+        411.12619209662944,
+        244.4918225492293
+      ],
+      "blur_length_px": 2.0,
+      "blur_angle_deg": 265.13813531993486,
+      "motion_beta": 0.36552739556349967,
+      "spiral_indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "kernel_blur_angle_deg": 274.86186468006514
+    }
+  ],
+  "spirals": [
+    {
+      "spiral_index": 0,
+      "robot_index": 0,
+      "slot_index": 0,
+      "slot_name": "orientation",
+      "class_name": "zero",
+      "class_id": 1,
+      "bit_value": null,
+      "twist_angle_deg": 0.0,
+      "center_xy": [
+        93.82502117004044,
+        245.6826221094645
+      ],
+      "bbox_xyxy": [
+        65.02502117004045,
+        216.88262210946448,
+        122.62502117004044,
+        274.4826221094645
+      ],
+      "blur_length_px": 22.0,
+      "blur_angle_deg": 268.481239402547,
+      "motion_beta": 0.2945717830012541,
+      "kernel_blur_angle_deg": 271.518760597453
+    },
+    {
+      "spiral_index": 1,
+      "robot_index": 0,
+      "slot_index": 1,
+      "slot_name": "bit_2",
+      "class_name": "pos",
+      "class_id": 2,
+      "bit_value": 1,
+      "twist_angle_deg": 45.0,
+      "center_xy": [
+        127.61554683584801,
+        295.9236014909078
+      ],
+      "bbox_xyxy": [
+        98.81554683584801,
+        267.1236014909078,
+        156.415546835848,
+        324.7236014909078
+      ],
+      "blur_length_px": 22.0,
+      "blur_angle_deg": 268.481239402547,
+      "motion_beta": 0.2945717830012541,
+      "kernel_blur_angle_deg": 271.518760597453
+    },
+    {
+      "spiral_index": 2,
+      "robot_index": 0,
+      "slot_index": 2,
+      "slot_name": "bit_1",
+      "class_name": "pos",
+      "class_id": 2,
+      "bit_value": 1,
+      "twist_angle_deg": 45.0,
+      "center_xy": [
+        77.37457192891789,
+        329.7141226822022
+      ],
+      "bbox_xyxy": [
+        48.574571928917884,
+        300.91412268220216,
+        106.17457192891789,
+        358.5141226822022
+      ],
+      "blur_length_px": 22.0,
+      "blur_angle_deg": 268.481239402547,
+      "motion_beta": 0.2945717830012541,
+      "kernel_blur_angle_deg": 271.518760597453
+    },
+    {
+      "spiral_index": 3,
+      "robot_index": 0,
+      "slot_index": 3,
+      "slot_name": "bit_0",
+      "class_name": "neg",
+      "class_id": 0,
+      "bit_value": 0,
+      "twist_angle_deg": -45.0,
+      "center_xy": [
+        43.584046263110324,
+        279.47314330075886
+      ],
+      "bbox_xyxy": [
+        14.78404626311032,
+        250.67314330075885,
+        72.38404626311032,
+        308.2731433007589
+      ],
+      "blur_length_px": 22.0,
+      "blur_angle_deg": 268.481239402547,
+      "motion_beta": 0.2945717830012541,
+      "kernel_blur_angle_deg": 271.518760597453
+    },
+    {
+      "spiral_index": 4,
+      "robot_index": 1,
+      "slot_index": 0,
+      "slot_name": "orientation",
+      "class_name": "zero",
+      "class_id": 1,
+      "bit_value": null,
+      "twist_angle_deg": 0.0,
+      "center_xy": [
+        419.1547043912872,
+        507.7504478987686
+      ],
+      "bbox_xyxy": [
+        390.3547043912872,
+        478.9504478987686,
+        447.95470439128724,
+        536.5504478987685
+      ],
+      "blur_length_px": 19.0,
+      "blur_angle_deg": 83.95469064292716,
+      "motion_beta": 0.3138511177925275,
+      "kernel_blur_angle_deg": 96.04530935707284
+    },
+    {
+      "spiral_index": 5,
+      "robot_index": 1,
+      "slot_index": 1,
+      "slot_name": "bit_2",
+      "class_name": "neg",
+      "class_id": 0,
+      "bit_value": 0,
+      "twist_angle_deg": -45.0,
+      "center_xy": [
+        478.62902068567445,
+        496.4031182882302
+      ],
+      "bbox_xyxy": [
+        449.82902068567444,
+        467.6031182882302,
+        507.42902068567446,
+        525.2031182882301
+      ],
+      "blur_length_px": 19.0,
+      "blur_angle_deg": 83.95469064292716,
+      "motion_beta": 0.3138511177925275,
+      "kernel_blur_angle_deg": 96.04530935707284
+    },
+    {
+      "spiral_index": 6,
+      "robot_index": 1,
+      "slot_index": 2,
+      "slot_name": "bit_1",
+      "class_name": "pos",
+      "class_id": 2,
+      "bit_value": 1,
+      "twist_angle_deg": 45.0,
+      "center_xy": [
+        489.97635029621273,
+        555.8774166845648
+      ],
+      "bbox_xyxy": [
+        461.1763502962127,
+        527.0774166845648,
+        518.7763502962127,
+        584.6774166845647
+      ],
+      "blur_length_px": 19.0,
+      "blur_angle_deg": 83.95469064292716,
+      "motion_beta": 0.3138511177925275,
+      "kernel_blur_angle_deg": 96.04530935707284
+    },
+    {
+      "spiral_index": 7,
+      "robot_index": 1,
+      "slot_index": 3,
+      "slot_name": "bit_0",
+      "class_name": "pos",
+      "class_id": 2,
+      "bit_value": 1,
+      "twist_angle_deg": 45.0,
+      "center_xy": [
+        430.50203400182556,
+        567.2247462951032
+      ],
+      "bbox_xyxy": [
+        401.70203400182555,
+        538.4247462951032,
+        459.3020340018256,
+        596.0247462951031
+      ],
+      "blur_length_px": 19.0,
+      "blur_angle_deg": 83.95469064292716,
+      "motion_beta": 0.3138511177925275,
+      "kernel_blur_angle_deg": 96.04530935707284
+    },
+    {
+      "spiral_index": 8,
+      "robot_index": 2,
+      "slot_index": 0,
+      "slot_name": "orientation",
+      "class_name": "zero",
+      "class_id": 1,
+      "bit_value": null,
+      "twist_angle_deg": 0.0,
+      "center_xy": [
+        249.2161346470504,
+        409.18667702516467
+      ],
+      "bbox_xyxy": [
+        220.4161346470504,
+        380.38667702516466,
+        278.0161346470504,
+        437.9866770251647
+      ],
+      "blur_length_px": 6.0,
+      "blur_angle_deg": 49.07321846708129,
+      "motion_beta": 0.3451247802851093,
+      "kernel_blur_angle_deg": 130.9267815329187
+    },
+    {
+      "spiral_index": 9,
+      "robot_index": 2,
+      "slot_index": 1,
+      "slot_name": "bit_2",
+      "class_name": "neg",
+      "class_id": 0,
+      "bit_value": 0,
+      "twist_angle_deg": -45.0,
+      "center_xy": [
+        274.354110735252,
+        354.1045786574671
+      ],
+      "bbox_xyxy": [
+        245.55411073525198,
+        325.30457865746706,
+        303.154110735252,
+        382.9045786574671
+      ],
+      "blur_length_px": 6.0,
+      "blur_angle_deg": 49.07321846708129,
+      "motion_beta": 0.3451247802851093,
+      "kernel_blur_angle_deg": 130.9267815329187
+    },
+    {
+      "spiral_index": 10,
+      "robot_index": 2,
+      "slot_index": 2,
+      "slot_name": "bit_1",
+      "class_name": "neg",
+      "class_id": 0,
+      "bit_value": 0,
+      "twist_angle_deg": -45.0,
+      "center_xy": [
+        329.4362091029496,
+        379.24255474566866
+      ],
+      "bbox_xyxy": [
+        300.6362091029496,
+        350.44255474566864,
+        358.2362091029496,
+        408.04255474566867
+      ],
+      "blur_length_px": 6.0,
+      "blur_angle_deg": 49.07321846708129,
+      "motion_beta": 0.3451247802851093,
+      "kernel_blur_angle_deg": 130.9267815329187
+    },
+    {
+      "spiral_index": 11,
+      "robot_index": 2,
+      "slot_index": 3,
+      "slot_name": "bit_0",
+      "class_name": "pos",
+      "class_id": 2,
+      "bit_value": 1,
+      "twist_angle_deg": 45.0,
+      "center_xy": [
+        304.298233014748,
+        434.32465311336625
+      ],
+      "bbox_xyxy": [
+        275.498233014748,
+        405.52465311336624,
+        333.098233014748,
+        463.12465311336626
+      ],
+      "blur_length_px": 6.0,
+      "blur_angle_deg": 49.07321846708129,
+      "motion_beta": 0.3451247802851093,
+      "kernel_blur_angle_deg": 130.9267815329187
+    },
+    {
+      "spiral_index": 12,
+      "robot_index": 3,
+      "slot_index": 0,
+      "slot_name": "orientation",
+      "class_name": "zero",
+      "class_id": 1,
+      "bit_value": null,
+      "twist_angle_deg": 0.0,
+      "center_xy": [
+        346.1587487461764,
+        217.58667560842696
+      ],
+      "bbox_xyxy": [
+        317.3587487461764,
+        188.78667560842695,
+        374.9587487461764,
+        246.38667560842697
+      ],
+      "blur_length_px": 2.0,
+      "blur_angle_deg": 265.13813531993486,
+      "motion_beta": 0.36552739556349967,
+      "kernel_blur_angle_deg": 274.86186468006514
+    },
+    {
+      "spiral_index": 13,
+      "robot_index": 3,
+      "slot_index": 1,
+      "slot_name": "bit_2",
+      "class_name": "pos",
+      "class_id": 2,
+      "bit_value": 1,
+      "twist_angle_deg": 45.0,
+      "center_xy": [
+        299.0714094934468,
+        179.5243779686695
+      ],
+      "bbox_xyxy": [
+        270.2714094934468,
+        150.7243779686695,
+        327.87140949344683,
+        208.32437796866952
+      ],
+      "blur_length_px": 2.0,
+      "blur_angle_deg": 265.13813531993486,
+      "motion_beta": 0.36552739556349967,
+      "kernel_blur_angle_deg": 274.86186468006514
+    },
+    {
+      "spiral_index": 14,
+      "robot_index": 3,
+      "slot_index": 2,
+      "slot_name": "bit_1",
+      "class_name": "pos",
+      "class_id": 2,
+      "bit_value": 1,
+      "twist_angle_deg": 45.0,
+      "center_xy": [
+        337.1337138449742,
+        132.43704788792283
+      ],
+      "bbox_xyxy": [
+        308.33371384497417,
+        103.63704788792282,
+        365.9337138449742,
+        161.23704788792284
+      ],
+      "blur_length_px": 2.0,
+      "blur_angle_deg": 265.13813531993486,
+      "motion_beta": 0.36552739556349967,
+      "kernel_blur_angle_deg": 274.86186468006514
+    },
+    {
+      "spiral_index": 15,
+      "robot_index": 3,
+      "slot_index": 3,
+      "slot_name": "bit_0",
+      "class_name": "pos",
+      "class_id": 2,
+      "bit_value": 1,
+      "twist_angle_deg": 45.0,
+      "center_xy": [
+        384.22105063748984,
+        170.49934306746712
+      ],
+      "bbox_xyxy": [
+        355.4210506374898,
+        141.6993430674671,
+        413.02105063748985,
+        199.29934306746713
+      ],
+      "blur_length_px": 2.0,
+      "blur_angle_deg": 265.13813531993486,
+      "motion_beta": 0.36552739556349967,
+      "kernel_blur_angle_deg": 274.86186468006514
+    }
+  ]
+}
