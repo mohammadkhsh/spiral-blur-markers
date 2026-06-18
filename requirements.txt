@@ -1,0 +1,8 @@
+numpy>=1.26
+opencv-python>=4.9
+PyYAML>=6.0
+scipy>=1.12
+matplotlib>=3.8
+k-means-constrained>=0.7.6
+ultralytics>=8.3
+torch>=2.2
