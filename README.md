@@ -1,4 +1,4 @@
-# Spiral Blur Markers
+# LogSpiral DETR Motion
 
 Sharp log-spiral robot markers with a two-stage perception pipeline for robot detection, ID decoding, pose recovery, and motion-blur reasoning.
 
@@ -74,7 +74,7 @@ This repo is intentionally trimmed to the files used by the final sharp version:
 ## Repository Layout
 
 ```text
-spiral-blur-markers/
+logspiral-detr-motion/
 |-- configs/
 |-- docs/assets/
 |-- sample_data/
